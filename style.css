@@ -202,12 +202,14 @@ body {
 }
 
 
-.footer-links .footer-link {
+.footer-links a {
   color: var(--bs-primary);
   font-weight: 600;
   text-decoration: none;
   display: inline-block;
   transition: color 0.3s ease;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .footer-links .footer-link:hover {
