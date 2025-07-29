@@ -201,6 +201,21 @@ body {
   border-color: var(--bs-primary) !important;
 }
 
+
+.footer-links .footer-link {
+  color: var(--bs-primary);
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.footer-links .footer-link:hover {
+  color: #6e0c2a;
+  text-decoration: underline;
+}
+
+
 @media (min-width: 1000px) {
   .pink-background {
     padding-bottom: 0px;
